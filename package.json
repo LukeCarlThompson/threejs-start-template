@@ -1,0 +1,51 @@
+{
+  "name": "three-js-start-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --config ./eslint.config.mjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "3.2.3",
+    "@eslint/js": "9.17.0",
+    "@storybook/addon-essentials": "8.4.7",
+    "@storybook/addon-interactions": "8.4.7",
+    "@storybook/blocks": "8.4.7",
+    "@storybook/html": "8.4.7",
+    "@storybook/html-vite": "8.4.7",
+    "@storybook/test": "8.4.7",
+    "@sveltejs/vite-plugin-svelte": "5.0.3",
+    "@tsconfig/svelte": "5.0.4",
+    "@tweakpane/core": "2.0.5",
+    "@types/three": "0.171.0",
+    "eslint": "9.17.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-storybook": "0.11.1",
+    "eslint-plugin-svelte": "2.46.1",
+    "sass-embedded": "1.76.0",
+    "stats-gl": "3.6.0",
+    "storybook": "8.4.7",
+    "svelte": "5.16.0",
+    "svelte-check": "4.1.1",
+    "tweakpane": "4.0.5",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "8.18.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.14.0",
+    "@picocss/pico": "2.0.6",
+    "three": "0.171.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  }
+}

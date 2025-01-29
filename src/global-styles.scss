@@ -1,0 +1,36 @@
+@use "@picocss/pico/scss" with (
+  $parent-selector: ".pico",
+  $enable-semantic-container: true,
+  $enable-classes: false,
+  $modules: (
+    "content/code": false,
+    "forms/input-color": false,
+    "forms/input-date": false,
+    "forms/input-file": false,
+    "forms/input-search": false,
+    "components/accordion": false,
+    "components/card": false,
+    "components/dropdown": false,
+    "components/loading": false,
+    "components/modal": false,
+    "components/nav": false,
+    "components/progress": false,
+    "components/tooltip": false,
+    "utilities/accessibility": false,
+    "utilities/reduce-motion": false,
+  )
+);
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  overscroll-behavior: none;
+  background: var(--pico-background-color);
+}
+
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
